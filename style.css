@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+h2 {
+  margin-bottom: 10px;
+  text-align: center;
+    margin-bottom: 20px;
+}
+.container {
+    margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  width: 350px;
+  text-align: center;
+}
+
+
+
+input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin-bottom: 10px;
+  transition: 0.3s;
+
+   display: block;
+  margin: 0 auto;
+}
+#resultado {
+  width: 1000px;      /* ajusta aqui */
+  margin: 0 auto;    /* centraliza */
+}
+input:focus {
+  border-color: #4facfe;
+  box-shadow: 0 0 5px #4facfe;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #4facfe;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #00c6ff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align: left;
+
+  max-height: 500px; /* altura da lista */
+  overflow-y: auto; /* ativa o scroll */
+}
+
+li {
+  background: #f1f1f1;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+li:hover {
+  background: #e0f7ff;
+  transform: scale(1.02);
+}
